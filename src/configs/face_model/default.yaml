@@ -1,0 +1,9 @@
+backbone: ir_50
+dataset: None
+loss_fn: adaface
+normalize_feature: false
+return_spatial: []
+head_name: none
+ckpt_path: /root/autodl-tmp/ccfexp/pretrained_models/IR-50_affectnet_deviation_Softmax.pth
+center_path: null
+name: face_model

@@ -1,0 +1,26 @@
+_target_: src.trainer.Trainer
+_partial_: true
+image_size: 32
+channels: 3
+ckpt_path: ${oc.env:REPO_ROOT}/ccfexp/pretrained_models/dcface_5x5.ckpt
+lm_detector_path: ${oc.env:REPO_ROOT}/ccfexp/pretrained_models/mobilefacenet_model_best.pth
+use_ema: True
+sampler:
+  num_train_timesteps: 1000
+  beta_start: 0.0001
+  beta_end: 0.02
+  variance_type: fixed_small
+
+first_stage_config: ${model.first_stage_config}
+cond_stage_config: ${model.cond_stage_config}
+unet_config: ${model.unet_config}
+optimizer: ${optimizer}
+paths: ${paths}
+precision: ${lightning.precision}
+datamodule: ${datamodule}
+recognition: ${recognition}
+face_model: ${face_model}
+id_model: ${id_model}
+#recognition_eval: ${recognition_eval}
+losses: ${losses}
+label_mapping: ${label_mapping}

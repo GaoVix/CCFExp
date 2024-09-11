@@ -1,0 +1,9 @@
+backbone: ir_50
+dataset: None
+loss_fn: adaface
+normalize_feature: false
+return_spatial: []
+head_name: none
+ckpt_path: /root/autodl-tmp/ccfexp/pretrained_models/adaface_ir50_casia.ckpt
+center_path: null
+name: id_model
