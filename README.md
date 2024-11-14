@@ -1,7 +1,7 @@
 
 
 # CCFExp: Facial Image Synthesis with Cycle Cross-Fusion Diffusion Model for Facial Paralysis Individuals
-This is the official repository for the paper CCFExp: Facial Image Synthesis with Cycle Cross-Fusion Diffusion Model for Facial Paralysis Individuals
+This is the official repository for the paper CFCPalsy: Facial Image Synthesis with Cross-Fusion Cycle Diffusion Model for Facial Paralysis Individuals
 
 
 <div style="background-color: white; padding: 10px; display: inline-block;">
