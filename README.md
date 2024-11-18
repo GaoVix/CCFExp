@@ -23,7 +23,7 @@ This is an open-source project for facial expression transfer in facial palsy im
 pip install -r requirements.txt
 ```
 
-### Test CCFExp utilizing given sample images
+### Test CFCPalsy utilizing given sample images
 You can quickly experience the facial palsy face synthesis results by first using the model we provide.
 
 
